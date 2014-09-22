@@ -101,7 +101,7 @@
 % zacatek
 % @param #1 sloupce
 \def\zactab#1{\noindent\begin{tabular}{#1}}
-\def\zacltab#1{\noindent\begin{longtable}{#1}}
+\def\zacltab#1{\noindent\begin{longtable}[l]{#1}}
 
 % konec
 \def\kontab{\end{tabular}\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{1}\tabcolsep 6pt\normalfont\normalsize}
